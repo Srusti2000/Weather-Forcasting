@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"], select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #181e18;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin: 20px;
+  }
+  

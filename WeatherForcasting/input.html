@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Weather and Crop Advisories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style>
+    body{
+      background-image: url(CommercialFarming-1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+  <h1>Weather and Crop Advisories</h1>
+
+  <form>
+    <label for="soil-quality">Soil Quality:</label>
+    <input type="text" id="soil-quality" name="soil-quality" required>
+    
+    <label for="humidity">Humidity:</label>
+    <input type="text" id="humidity" name="humidity" required>
+    
+    <label for="rainfall">Rainfall:</label>
+    <input type="text" id="rainfall" name="rainfall" required>
+    
+    <label for="crop-type">Crop Type:</label>
+    <select id="crop-type" name="crop-type" required>
+      <option value="">Select Crop Type</option>
+      <option value="wheat">Wheat</option>
+      <option value="rice">Rice</option>
+      <option value="maize">Maize</option>
+      <option value="cotton">Cotton</option>
+    </select>
+    
+    <button type="submit">Submit</button>
+  </form>
+  
+  <div id="result"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
